@@ -2,17 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Manufacturer : MonoBehaviour
+public abstract class Manufacturer
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public string name;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
