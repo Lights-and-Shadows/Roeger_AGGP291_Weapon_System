@@ -6,10 +6,10 @@ public abstract class Weapon
 {
     public Manufacturer manufacturer;
     public int magazineSize;
-    public int damage;
-    public double rof;
-    public int accuracy;
-    public int range;
+    public float damage;
+    public float rof;
+    public float accuracy;
+    public float range;
 
     public AnimationClip reloadAnim;
 
